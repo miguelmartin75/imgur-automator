@@ -27,6 +27,8 @@ sed -i '' 's/{SCREENSHOT_DIR}/$(SCREENSHOT_DIR_TO_USE)/g' automator/imgur-screen
 cp -r ./automator/imgur-screenshot-upload.workflow "$SCREENSHOT_SERVICE_INSTALL_PATH"
 cp -r ./automator/imgur-upload.workflow "$UPLOAD_SERVICE_INSTALL_PATH"
 
+echo "cleaining up..."
+
 # remove the generated automator files
 rm -rf ./automator/imgur-screenshot-upload.workflow
 
