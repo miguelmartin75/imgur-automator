@@ -8,11 +8,12 @@ for uploading images and screenshots to imgur, with no hassle.
 Installation is very simple, follow these smalls steps:
 
 1. [Download](http://github.com/miguelmartin75/imgur-automator/zipball/master/) or clone the repository.
-2. Run the install.sh script in a command line (e.g. Terminal.app), like so:
+2. Run the `install.sh` script in a command line (e.g. Terminal.app), like so:
     
     ```bash
     ./install.sh
     ```
+    
 ## NOTES
 
 1. You can pass one argument to the `install.sh` script, this argument is the directory where you 
@@ -32,16 +33,14 @@ Installation is very simple, follow these smalls steps:
 This repository comes with two automation scripts: one to upload screenshots to imgur and two,
 to upload images that are already on your machine.
 
-## uploading screenshots
+## Uploading Screenshots
 
 Uploading screenshots is extremely simple. Simply, take a screenshot and wait for it to upload.
 You can take a screenshot by pressing ⇧⌘4 (shift-command-4) to screenshot your whole screen or 
 ⇧⌘3 (shift-command-3) to screenshot a region of your screen. A notification will be shown when 
 the screenshot is uploaded, and the link to to the image will be automatically copied to your clipboard.
 
-
-
-## uploading images already on your machine
+## Uploading images already on your machine
 
 To upload images that are already on your machine, you can have two options:
 
@@ -72,9 +71,14 @@ the link to your clipboard.
 
 #### Right Clicking
 
-In Finder, you can right click the image and then go to
-services and click the service called 'imgur-upload'. This will automatically
-copy the link to your clipboard, once it is uploaded.
+In Finder (and perhaps other applications that support this), you can:
+
+1. right click the image
+  ((image)) 
+2. hover over "Services"
+  ((image)) 
+3. Click the service called "imgur-upload". 
+   ((image)) 
 
 #### Top-bar Menu Option
 
