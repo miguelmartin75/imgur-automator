@@ -36,9 +36,11 @@ to upload images that are already on your machine.
 ## Uploading Screenshots
 
 Uploading screenshots is extremely simple. Simply, take a screenshot and wait for it to upload.
-You can take a screenshot by pressing ⇧⌘4 (shift-command-4) to screenshot your whole screen or 
-⇧⌘3 (shift-command-3) to screenshot a region of your screen. A notification will be shown when 
+You can take a screenshot by pressing ⇧⌘3 (shift-command-3) to screenshot your whole screen or 
+⇧⌘4 (shift-command-4) to screenshot a region of your screen. A notification will be shown when 
 the screenshot is uploaded, and the link to to the image will be automatically copied to your clipboard.
+
+<img align="center" src="http://i.imgur.com/aAw32iB.png" alt="Notification">
 
 ## Uploading images already on your machine
 
@@ -69,7 +71,6 @@ you can upload the image(s) you want multiple ways. All ways
 will show a notification once the image is uploaded and copy
 the link to your clipboard.
 
-![Notification](http://i.imgur.com/aAw32iB.png)
 
 #### Right Clicking
 
