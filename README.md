@@ -69,31 +69,40 @@ you can upload the image(s) you want multiple ways. All ways
 will show a notification once the image is uploaded and copy
 the link to your clipboard.
 
+![Notification](http://i.imgur.com/aAw32iB.png)
+
 #### Right Clicking
 
 In Finder (and perhaps other applications that support this), you can:
 
 1. right click the image
-  ((image)) 
+
+   ![Right Click Image](http://i.imgur.com/WLxxAZI.png)
+
 2. hover over "Services"
-  ((image)) 
+
+   ![Hover Over Services](http://i.imgur.com/dZVs4Ll.png)
+
 3. Click the service called "imgur-upload". 
-   ((image)) 
+
+   ![Click Service Called imgur-upload](http://i.imgur.com/k1RvP1v.png)   
 
 #### Top-bar Menu Option
 
 1. In Finder, or any other Application (e.g. an alternative to Finder, or a photo browser),
 click the Application name up at the top bar.
 
-((image))
+    ![Finder Top Bar](http://i.imgur.com/MLaQzsb.png)   
+
 
 2. Hover over the sub-menu called "services"
 
-((image))
+    ![Servies Menu](http://i.imgur.com/R61KhBw.png)  
+    
 
 3. Click the service called "imgur-upload"
 
-((image))
+    ![imgur-upload service](http://i.imgur.com/j2uKEQr.png3)
 
 #### Setting up a Shortcut
 
@@ -101,19 +110,17 @@ I really reccomend setting up a shortcut to upload an image, as shortcuts save m
 make a shortcut for the service, follow these steps:
 
 1. Open up System Preferences
-   ((image))
+    ![System Preferences](http://i.imgur.com/GqUpvlt.png)  
 2. Click/type "Keyboard"
-    ((image))
+    ![Keyboard within System Preferences](http://i.imgur.com/MxBwbHA.png)  
 3. Click the "Shortcuts" tab
-   ((image))
-4. Click "Services"
-    ((image))
-5. Scroll down to imgur-upload
-    ((image))
-6. Click "add a shortcut" (or double click the existing shortcut to edit it)
-    ((image))
-7. Type the key combination you wish to set as the shortcut, I personally use ⇧⌘I (shift-command-I).
-   ((image))
+    ![Keyboard Shortcuts tab](http://i.imgur.com/EDFld53.png)  
+4. Click "Services"    
+    ![Keyboard Services](http://i.imgur.com/KmWH4NM.png)  
+5. Scroll down to imgur-upload and click "add a shortcut" (or double click the existing shortcut to edit it)
+    ![Add a Shortcut](http://i.imgur.com/0DGG6VS.png)  
+6. Type the key combination you wish to set as the shortcut, I personally use ⇧⌘I (shift-command-I).
+    ![imgur-upload keyboard shortcut](http://i.imgur.com/smgDFBO.png) 
 
 # FAQ
 
