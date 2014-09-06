@@ -1,4 +1,4 @@
-UPLOAD_SERVICE_INSTALL_PATH=~/Library/Servies
+UPLOAD_SERVICE_INSTALL_PATH=~/Library/Services
 SCREENSHOT_SERVICE_INSTALL_PATH=~/Library/Workflows/Applications/Folder\ Actions
 IMGURU_INSTALL_PATH=/usr/local/bin
 SCREENSHOT_DIR_TO_USE=$(defaults read com.apple.screencapture location)
