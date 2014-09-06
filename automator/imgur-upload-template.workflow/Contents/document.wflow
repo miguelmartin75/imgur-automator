@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-                    <string>imguru -d "$@"</string>
+					<string>imguru -d "$@"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -84,7 +84,7 @@
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>6433FD0D-849B-4B28-9CAA-A3777EE241C3</string>
+				<string>36D129EF-378D-4F62-9E80-58352D519CEF</string>
 				<key>Keywords</key>
 				<array>
 					<string>Shell</string>
@@ -94,9 +94,9 @@
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>85D39265-1B2B-44A1-B541-D312ED96B363</string>
+				<string>3BF9614A-BFEC-4D7E-81ED-4ED181BEA4D8</string>
 				<key>UUID</key>
-				<string>BCEC5384-3D2E-4700-B058-AECBFF2BC7C0</string>
+				<string>6BA7D156-0FCE-471E-9EFA-1F2EA01424F5</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -172,7 +172,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:459.000000</string>
+				<string>309.500000:459.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -233,15 +233,15 @@
 				<key>Class Name</key>
 				<string>AMCopyToClipboardAction</string>
 				<key>InputUUID</key>
-				<string>BB251214-2A72-4C1A-BD87-1D78A3084FB7</string>
+				<string>2B8EA863-F83A-4294-96C7-6BB4C24CD31A</string>
 				<key>Keywords</key>
 				<array>
 					<string>Copy</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>47205245-58D0-4088-AC67-D71E3455D086</string>
+				<string>B1F96D4B-2C67-4851-A1A7-B3542E2008DF</string>
 				<key>UUID</key>
-				<string>BC8C31DA-6C69-4345-BFF7-4E1293EFC47F</string>
+				<string>00E08436-01EF-4F68-976B-23A744AB147F</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>System</string>
@@ -286,7 +286,7 @@
 					<dict>
 						<key>tokenizedValue</key>
 						<array>
-							<string>Screenshot succesfully uploaded!</string>
+							<string>Photo succesfully uploaded!</string>
 						</array>
 					</dict>
 				</dict>
@@ -308,7 +308,7 @@
 					<key>subtitle</key>
 					<string></string>
 					<key>title</key>
-					<string>Screenshot uploaded</string>
+					<string>Photo succesfully uploaded!</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Display-Notification</string>
@@ -325,13 +325,13 @@
 				<key>Class Name</key>
 				<string>AMDisplayNotificationAction</string>
 				<key>InputUUID</key>
-				<string>F99C247B-E7B6-4DDC-8BBC-3BF35DEB9D41</string>
+				<string>B24E3436-0007-483A-9E97-217ED01B4D24</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
-				<string>E824AE98-26DE-4480-95F1-8A6AD22D3632</string>
+				<string>F9FE3E87-67EE-45A5-A256-8B87DF52D408</string>
 				<key>UUID</key>
-				<string>35AA0357-5D3B-485A-9F32-142964594EE3</string>
+				<string>2419C072-0312-46A8-BF0E-E90207A0580A</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -381,7 +381,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:210.000000</string>
+				<string>309.500000:210.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -391,27 +391,35 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>3AB4FE8D-7E1D-450F-ADD4-1850FC6AFC2B</key>
+		<key>464EC822-B722-4F1E-9A75-0A54144B7D57</key>
 		<dict>
 			<key>from</key>
-			<string>BC8C31DA-6C69-4345-BFF7-4E1293EFC47F - BC8C31DA-6C69-4345-BFF7-4E1293EFC47F</string>
+			<string>6BA7D156-0FCE-471E-9EFA-1F2EA01424F5 - 6BA7D156-0FCE-471E-9EFA-1F2EA01424F5</string>
 			<key>to</key>
-			<string>35AA0357-5D3B-485A-9F32-142964594EE3 - 35AA0357-5D3B-485A-9F32-142964594EE3</string>
+			<string>00E08436-01EF-4F68-976B-23A744AB147F - 00E08436-01EF-4F68-976B-23A744AB147F</string>
 		</dict>
-		<key>B4CE0823-E4D3-4A46-9C8A-559C6A23A459</key>
+		<key>C1D1CE0A-AF64-40DF-8BB1-170C240EEEF1</key>
 		<dict>
 			<key>from</key>
-			<string>BCEC5384-3D2E-4700-B058-AECBFF2BC7C0 - BCEC5384-3D2E-4700-B058-AECBFF2BC7C0</string>
+			<string>00E08436-01EF-4F68-976B-23A744AB147F - 00E08436-01EF-4F68-976B-23A744AB147F</string>
 			<key>to</key>
-			<string>BC8C31DA-6C69-4345-BFF7-4E1293EFC47F - BC8C31DA-6C69-4345-BFF7-4E1293EFC47F</string>
+			<string>2419C072-0312-46A8-BF0E-E90207A0580A - 2419C072-0312-46A8-BF0E-E90207A0580A</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
-		<key>folderActionFolderPath</key>
-        <string>${SCREENSHOT_DIR}</string>
+		<key>serviceApplicationBundleID</key>
+		<string></string>
+		<key>serviceApplicationPath</key>
+		<string></string>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.fileSystemObject.image</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
-		<string>com.apple.Automator.folderAction</string>
+		<string>com.apple.Automator.servicesMenu</string>
 	</dict>
 </dict>
 </plist>
