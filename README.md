@@ -8,11 +8,12 @@ for uploading images and screenshots to imgur, with no hassle.
 Installation is very simple, follow these smalls steps:
 
 1. [Download](http://github.com/miguelmartin75/imgur-automator/zipball/master/) or clone the repository.
-2. Run the install.sh script in a command line (e.g. Terminal.app), like so:
+2. Run the `install.sh` script in a command line (e.g. Terminal.app), like so:
     
     ```bash
     ./install.sh
     ```
+    
 ## NOTES
 
 1. You can pass one argument to the `install.sh` script, this argument is the directory where you 
@@ -32,16 +33,16 @@ Installation is very simple, follow these smalls steps:
 This repository comes with two automation scripts: one to upload screenshots to imgur and two,
 to upload images that are already on your machine.
 
-## uploading screenshots
+## Uploading Screenshots
 
 Uploading screenshots is extremely simple. Simply, take a screenshot and wait for it to upload.
-You can take a screenshot by pressing ⇧⌘4 (shift-command-4) to screenshot your whole screen or 
-⇧⌘3 (shift-command-3) to screenshot a region of your screen. A notification will be shown when 
+You can take a screenshot by pressing ⇧⌘3 (shift-command-3) to screenshot your whole screen or 
+⇧⌘4 (shift-command-4) to screenshot a region of your screen. A notification will be shown when 
 the screenshot is uploaded, and the link to to the image will be automatically copied to your clipboard.
 
+<img align="center" src="http://i.imgur.com/aAw32iB.png" alt="Notification">
 
-
-## uploading images already on your machine
+## Uploading images already on your machine
 
 To upload images that are already on your machine, you can have two options:
 
@@ -70,26 +71,39 @@ you can upload the image(s) you want multiple ways. All ways
 will show a notification once the image is uploaded and copy
 the link to your clipboard.
 
+
 #### Right Clicking
 
-In Finder, you can right click the image and then go to
-services and click the service called 'imgur-upload'. This will automatically
-copy the link to your clipboard, once it is uploaded.
+In Finder (and perhaps other applications that support this), you can:
+
+1. right click the image
+
+   ![Right Click Image](http://i.imgur.com/WLxxAZI.png)
+
+2. hover over "Services"
+
+   ![Hover Over Services](http://i.imgur.com/dZVs4Ll.png)
+
+3. Click the service called "imgur-upload". 
+
+   ![Click Service Called imgur-upload](http://i.imgur.com/k1RvP1v.png)   
 
 #### Top-bar Menu Option
 
 1. In Finder, or any other Application (e.g. an alternative to Finder, or a photo browser),
 click the Application name up at the top bar.
 
-((image))
+    ![Finder Top Bar](http://i.imgur.com/MLaQzsb.png)   
+
 
 2. Hover over the sub-menu called "services"
 
-((image))
+    ![Servies Menu](http://i.imgur.com/R61KhBw.png)  
+    
 
 3. Click the service called "imgur-upload"
 
-((image))
+    ![imgur-upload service](http://i.imgur.com/j2uKEQr.png3)
 
 #### Setting up a Shortcut
 
@@ -97,19 +111,17 @@ I really reccomend setting up a shortcut to upload an image, as shortcuts save m
 make a shortcut for the service, follow these steps:
 
 1. Open up System Preferences
-   ((image))
+    ![System Preferences](http://i.imgur.com/GqUpvlt.png)  
 2. Click/type "Keyboard"
-    ((image))
+    ![Keyboard within System Preferences](http://i.imgur.com/MxBwbHA.png)  
 3. Click the "Shortcuts" tab
-   ((image))
-4. Click "Services"
-    ((image))
-5. Scroll down to imgur-upload
-    ((image))
-6. Click "add a shortcut" (or double click the existing shortcut to edit it)
-    ((image))
-7. Type the key combination you wish to set as the shortcut, I personally use ⇧⌘I (shift-command-I).
-   ((image))
+    ![Keyboard Shortcuts tab](http://i.imgur.com/EDFld53.png)  
+4. Click "Services"    
+    ![Keyboard Services](http://i.imgur.com/KmWH4NM.png)  
+5. Scroll down to imgur-upload and click "add a shortcut" (or double click the existing shortcut to edit it)
+    ![Add a Shortcut](http://i.imgur.com/0DGG6VS.png)  
+6. Type the key combination you wish to set as the shortcut, I personally use ⇧⌘I (shift-command-I).
+    ![imgur-upload keyboard shortcut](http://i.imgur.com/smgDFBO.png) 
 
 # FAQ
 
