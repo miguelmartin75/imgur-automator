@@ -17,14 +17,15 @@ Installation is very simple, follow these smalls steps:
 ## NOTES
 
 1. You can pass one argument to the `install.sh` script, this argument is the directory where you 
-   to store your screenshots. The `install.sh` script will call the `set_screenshot_dir.sh`, which
-   will set your system screenshot directory path. For example:
+   to store your screenshots. The `install.sh` script will call the `set_screenshot_dir.sh` script, 
+   which will set your system screenshot directory path. For example:
     
    ```bash
    ./install.sh ~/Documents/Pictures/My\ Screenshots
    ```
+
 2. Since the automation scripts depend on [imguru](https://github.com/FigBug/imguru),
-   they uploads your images/screenshots to imgur anonymously; which may be of nusance to some people.
+   the scripts will upload your images/screenshots to imgur anonymously; which may be of nuisance to some people.
    However, if someone wants to alter this repository to incorporate user uploads, they are more than
    welcome to.
 
@@ -38,9 +39,9 @@ to upload images that are already on your machine.
 Uploading screenshots is extremely simple. Simply, take a screenshot and wait for it to upload.
 You can take a screenshot by pressing ⇧⌘3 (shift-command-3) to screenshot your whole screen or 
 ⇧⌘4 (shift-command-4) to screenshot a region of your screen. A notification will be shown when 
-the screenshot is uploaded, and the link to to the image will be automatically copied to your clipboard.
+the screenshot has been uploaded, and the link to to the image will be automatically copied to your clipboard.
 
-<img align="center" src="http://i.imgur.com/aAw32iB.png" alt="Notification">
+![Notification](http://i.imgur.com/aAw32iB.png)
 
 ## Uploading images already on your machine
 
@@ -86,7 +87,7 @@ In Finder (and perhaps other applications that support this), you can:
 
 3. Click the service called "imgur-upload". 
 
-   ![Click Service Called imgur-upload](http://i.imgur.com/k1RvP1v.png)   
+   ![Click Service Called imgur-upload](http://i.imgur.com/PSLKhab.png)   
 
 #### Top-bar Menu Option
 
