@@ -1,0 +1,8 @@
+source ./variables.sh
+
+echo "removing services"
+rm -rf $UPLOAD_SERVICE_INSTALL_PATH$AUTOMATOR_IMGUR_UPLOAD_DIR
+rm -rf $SCREENSHOT_SERVICE_INSTALL_PATH$AUTOMATOR_IMGUR_SCREENSHOT_UPLOAD_TEMPLATE_DIR
+
+echo "removing imguru"
+rm $IMGURU_INSTALL_PATH/imguru
