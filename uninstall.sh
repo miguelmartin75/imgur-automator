@@ -1,3 +1,4 @@
+#!/bin/bash
 source ./variables.sh
 
 echo "removing services"

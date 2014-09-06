@@ -1,3 +1,4 @@
+#!/bin/bash
 source ./variables.sh
 
 SCREENSHOT_DIR_TO_USE=$(defaults read com.apple.screencapture location)
