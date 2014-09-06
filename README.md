@@ -95,7 +95,7 @@ In Finder (and perhaps other applications that support this), you can:
 
 3. Click the service called "imgur-upload". 
 
-   ![Click Service Called imgur-upload](http://i.imgur.com/PSLKhab.png)   
+   ![Click Service Called imgur-upload](http://i.imgur.com/guI3mQr.png)   
 
 #### Top-bar Menu Option
 
@@ -112,7 +112,7 @@ click the Application name up at the top bar.
 
 3. Click the service called "imgur-upload"
 
-    ![imgur-upload service](http://i.imgur.com/j2uKEQr.png3)
+    ![imgur-upload service](http://i.imgur.com/PSLKhab.png)
 
 #### Setting up a Shortcut
 
