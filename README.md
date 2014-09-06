@@ -6,9 +6,9 @@ for uploading images and screenshots to imgur, with no hassle.
 ### Table of Contents
 
 <pre>
-<a href="#Installation">Installation</a>
-<a href="#Usage">Usage</a>
-<a href="#FAQ">FAQ</a>
+<a href="#installation">Installation</a>
+<a href="#usage">Usage</a>
+<a href="#faq">FAQ</a>
 </pre>
 
 # Installation
