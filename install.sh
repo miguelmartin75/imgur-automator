@@ -22,8 +22,7 @@ echo "screenshot dir is: \"$SCREENSHOT_DIR_TO_USE\""
 
 echo "installing..."
 
-# make a copy of the templates... as the copies are the ones we will
-# alter and install
+# make a copy of the templates... as the copies are the ones we will alter and install
 cp -r $AUTOMATOR_IMGUR_SCREENSHOT_UPLOAD_TEMPLATE_DIR $AUTOMATOR_IMGUR_SCREENSHOT_UPLOAD_DIR
 cp -r $AUTOMATOR_IMGUR_UPLOAD_TEMPLATE_DIR $AUTOMATOR_IMGUR_UPLOAD_DIR
 
@@ -36,7 +35,9 @@ sed -i '' "s/{SHELL}/${SHELL_PATH}/g" $AUTOMATOR_IMGUR_SCREENSHOT_UPLOAD_DIR$AUT
 sed -i '' "s/{SHELL}/${SHELL_PATH}/g" $AUTOMATOR_IMGUR_UPLOAD_DIR$AUTOMATOR_DOCUMENT_FILE
 
 # now install the automator files
+mkdir -p "$SCREENSHOT_SERVICE_INSTALL_PATH"
 cp -r $AUTOMATOR_IMGUR_SCREENSHOT_UPLOAD_DIR "$SCREENSHOT_SERVICE_INSTALL_PATH"
+mkdir -p "$UPLOAD_SERVICE_INSTALL_PATH"
 cp -r $AUTOMATOR_IMGUR_UPLOAD_DIR "$UPLOAD_SERVICE_INSTALL_PATH"
 
 echo "cleaining up..."
