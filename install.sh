@@ -14,6 +14,7 @@ if [ "x$1" != "x" ]; then
     ./set_screenshot_dir.sh $SCREENSHOT_DIR_TO_USE
 elif ! SCREENSHOT_DIR_TO_USE=$(defaults read com.apple.screencapture location); then
     # Screenshot dir is OS default by omission of any preference to the contrary
+    echo "com.apple.screencapture location override isn't set - using default screenshot dir"
     SCREENSHOT_DIR_TO_USE=~/Desktop
 fi
 
