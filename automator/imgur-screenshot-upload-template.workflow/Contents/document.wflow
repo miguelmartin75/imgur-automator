@@ -409,7 +409,7 @@
 	<key>workflowMetaData</key>
 	<dict>
 		<key>folderActionFolderPath</key>
-        <string>${SCREENSHOT_DIR}</string>
+        <string>{SCREENSHOT_DIR}</string>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.folderAction</string>
 	</dict>
