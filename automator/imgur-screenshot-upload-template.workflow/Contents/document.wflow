@@ -64,7 +64,7 @@ imguru -d "$@"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>shell</key>
 					<string>/bin/zsh</string>
 					<key>source</key>
@@ -389,14 +389,14 @@ imguru -d "$@"</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>4BFE6C45-3067-4E94-B76E-DE426B332DDC</key>
+		<key>7C8227D4-CE56-40FE-9970-81D1FF6C5D93</key>
 		<dict>
 			<key>from</key>
 			<string>DBB1776C-51AD-41B6-B818-9C8906094419 - DBB1776C-51AD-41B6-B818-9C8906094419</string>
 			<key>to</key>
 			<string>D1248AF3-21B2-4F29-9B22-6322F23161D0 - D1248AF3-21B2-4F29-9B22-6322F23161D0</string>
 		</dict>
-		<key>C4BE42A2-9B28-48C5-8256-A17620A5E5F2</key>
+		<key>9672DA8F-91C8-445F-B9A6-077213EDA828</key>
 		<dict>
 			<key>from</key>
 			<string>D1248AF3-21B2-4F29-9B22-6322F23161D0 - D1248AF3-21B2-4F29-9B22-6322F23161D0</string>
