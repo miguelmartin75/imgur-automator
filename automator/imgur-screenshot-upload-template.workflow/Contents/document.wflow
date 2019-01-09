@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>381</string>
+	<string>444.7</string>
 	<key>AMApplicationVersion</key>
-	<string>2.4</string>
+	<string>2.8</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -59,13 +59,14 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-                    <string>imguru -d "$@"</string>
+					<string>export PATH="{INSTALL_PATH}:$PATH" 
+imguru -d "$@"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
-					<integer>1</integer>
+					<integer>0</integer>
 					<key>shell</key>
-                    <string>{SHELL}</string>
+					<string>/bin/zsh</string>
 					<key>source</key>
 					<string></string>
 				</dict>
@@ -84,7 +85,7 @@
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>6433FD0D-849B-4B28-9CAA-A3777EE241C3</string>
+				<string>EBC54620-10F2-452A-B303-0216B90C3A23</string>
 				<key>Keywords</key>
 				<array>
 					<string>Shell</string>
@@ -94,9 +95,9 @@
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>85D39265-1B2B-44A1-B541-D312ED96B363</string>
+				<string>A40794AC-54D4-4D8F-A344-6DC400F3D75F</string>
 				<key>UUID</key>
-				<string>BCEC5384-3D2E-4700-B058-AECBFF2BC7C0</string>
+				<string>DBB1776C-51AD-41B6-B818-9C8906094419</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -172,7 +173,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:459.000000</string>
+				<string>309.000000:253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -233,15 +234,15 @@
 				<key>Class Name</key>
 				<string>AMCopyToClipboardAction</string>
 				<key>InputUUID</key>
-				<string>BB251214-2A72-4C1A-BD87-1D78A3084FB7</string>
+				<string>EC1B1F48-5E73-4CF3-B319-EB9B440FE8D2</string>
 				<key>Keywords</key>
 				<array>
 					<string>Copy</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>47205245-58D0-4088-AC67-D71E3455D086</string>
+				<string>42EFC901-0422-4FAD-9D53-AE17435EBC4E</string>
 				<key>UUID</key>
-				<string>BC8C31DA-6C69-4345-BFF7-4E1293EFC47F</string>
+				<string>D1248AF3-21B2-4F29-9B22-6322F23161D0</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>System</string>
@@ -278,10 +279,7 @@
 						</array>
 					</dict>
 					<key>subtitle</key>
-					<dict>
-						<key>tokenizedValue</key>
-						<array/>
-					</dict>
+					<dict/>
 					<key>title</key>
 					<dict>
 						<key>tokenizedValue</key>
@@ -304,11 +302,11 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>message</key>
-					<string>imgur link has been copied to the clipboard</string>
+					<string></string>
 					<key>subtitle</key>
 					<string></string>
 					<key>title</key>
-					<string>Screenshot uploaded</string>
+					<string>Screenshot succesfully uploaded!</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Display-Notification</string>
@@ -325,13 +323,13 @@
 				<key>Class Name</key>
 				<string>AMDisplayNotificationAction</string>
 				<key>InputUUID</key>
-				<string>F99C247B-E7B6-4DDC-8BBC-3BF35DEB9D41</string>
+				<string>D3DC8B1E-0C49-47AB-94FE-22BA9185199F</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
-				<string>E824AE98-26DE-4480-95F1-8A6AD22D3632</string>
+				<string>90F902A3-0531-4D19-9B63-0F9F4299CDEC</string>
 				<key>UUID</key>
-				<string>35AA0357-5D3B-485A-9F32-142964594EE3</string>
+				<string>6371D6A1-FD4E-478E-89DF-9C704B6C220E</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -381,7 +379,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>302.000000:210.000000</string>
+				<string>309.000000:509.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -391,19 +389,19 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>3AB4FE8D-7E1D-450F-ADD4-1850FC6AFC2B</key>
+		<key>4BFE6C45-3067-4E94-B76E-DE426B332DDC</key>
 		<dict>
 			<key>from</key>
-			<string>BC8C31DA-6C69-4345-BFF7-4E1293EFC47F - BC8C31DA-6C69-4345-BFF7-4E1293EFC47F</string>
+			<string>DBB1776C-51AD-41B6-B818-9C8906094419 - DBB1776C-51AD-41B6-B818-9C8906094419</string>
 			<key>to</key>
-			<string>35AA0357-5D3B-485A-9F32-142964594EE3 - 35AA0357-5D3B-485A-9F32-142964594EE3</string>
+			<string>D1248AF3-21B2-4F29-9B22-6322F23161D0 - D1248AF3-21B2-4F29-9B22-6322F23161D0</string>
 		</dict>
-		<key>B4CE0823-E4D3-4A46-9C8A-559C6A23A459</key>
+		<key>C4BE42A2-9B28-48C5-8256-A17620A5E5F2</key>
 		<dict>
 			<key>from</key>
-			<string>BCEC5384-3D2E-4700-B058-AECBFF2BC7C0 - BCEC5384-3D2E-4700-B058-AECBFF2BC7C0</string>
+			<string>D1248AF3-21B2-4F29-9B22-6322F23161D0 - D1248AF3-21B2-4F29-9B22-6322F23161D0</string>
 			<key>to</key>
-			<string>BC8C31DA-6C69-4345-BFF7-4E1293EFC47F - BC8C31DA-6C69-4345-BFF7-4E1293EFC47F</string>
+			<string>6371D6A1-FD4E-478E-89DF-9C704B6C220E - 6371D6A1-FD4E-478E-89DF-9C704B6C220E</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>

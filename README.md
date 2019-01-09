@@ -21,6 +21,8 @@ Installation is very simple, follow these smalls steps:
     ```bash
     ./install.sh
     ```
+
+This will cause automator to open, click install.
     
 ## NOTES
 

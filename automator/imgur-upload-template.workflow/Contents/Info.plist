@@ -8,7 +8,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>imgur-upload</string>
+				<string>imgur-upload-template</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
